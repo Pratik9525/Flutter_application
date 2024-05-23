@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'favorite_provider.dart'; // Import the FavoriteProvider class
-import 'product_list.dart';
+import '../providers/favorite_provider/favorite_provider.dart'; // Import the FavoriteProvider class
+import '../widgets/product_list.dart';
 
 class FavoriteScreen extends StatelessWidget {
   @override

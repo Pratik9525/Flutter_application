@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'product_list.dart';
+import '../widgets/product_list.dart';
 import 'product_detail_screen.dart';
-import 'product_card.dart';
-import 'theme_provider.dart';
-import 'cart_provider.dart';
-import 'favorite_provider.dart';
+import '../widgets/product_card.dart';
+import '../providers/theme_provider/theme_provider.dart';
+import '../providers/cart_provider/cart_provider.dart';
+import '../providers/favorite_provider/favorite_provider.dart';
 import 'cart_screen.dart';
 import 'favorite_screen.dart';
 
